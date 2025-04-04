@@ -1,3 +1,41 @@
 tp 1 git mariustissot
 
 Ex 1
+	il m'affiche les fichier attendant d'etre transferer via git add
+Ex 2
+	Le git status me montre les fichier qui vont etre ajouter au prochain commit
+Ex 3
+	il reside dans la staging area
+Ex 4
+Ex 5
+	git log
+Ex 6 
+	git diff --staged regarde la difference entre le local depository et let staged  
+ex 7
+	git show indique nous montre le dernier commit ajouter tandis ce que git log nous montre tous les commit
+git satus nous montre l'etat actuelle de notre depot et les commandes a faire pour finaliser les modification (comme git add les fichier modifier puis les git commit)
+et le git diff nous montre la difference entre le working directory et le staged.
+Ex 8
+	Changes to be committed:
+	  (use "git restore --staged <file>..." to unstage)
+			new file:   brouillon.txt
+			new file:   fichier1.txt
+Ex 9
+	git reset renvoie le documents donner dans le working depository et le supprime du stage
+Ex 10 
+	git status 
+
+Ex 11
+	git log pour les commit et git status pour les ajouts
+Ex 12 git log
+Ex 13
+		git clone https://github.com/PaulineLam24/TP-Git.git
+ex 14
+	Le dossier "tp-Git" a ete recuperer (ls), ensuite avec git log on trouve 3 commit :
+	commit 9b68886bc99182ad4da6d6cf861bb29e7d1c507e,
+	commit f7a7e75421eb00b9ce12ef0bb0dfd3f61f00e471,
+	commit f8138d708175c280ece259c616cdd222ff18a1c3.
+ex 15
+	entre le premier et le deuxième commmit il y a eu l'ajout de la lgien "# ceci est un fichier readme.md"
+	entre le deuxième et le troisième la modification de la ligne 2 en supprimant le #
+	commande : git diff 9b68 f7a7, git diff f7a7 f813 
